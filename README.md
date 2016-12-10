@@ -1,2 +1,2 @@
 # stoscsg.github.io
-STOSC Website
+Website for STOSC
