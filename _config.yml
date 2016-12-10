@@ -1,4 +1,5 @@
-name: Horizons
+name: STOSC
 description: Horizons template for Jekyll
 paginate: 10
-baseurl: '/Horizons-Jekyll-Theme'
+# baseurl: '/stosc'
+encoding: utf-8
