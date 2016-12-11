@@ -1,5 +1,4 @@
-![Build Status](https://api.travis-ci.org/stoscsg/stoscsg.github.io.svg)
-
+![Build Status](https://api.travis-ci.org/stoscsg/stoscsg.github.io.svg) ![Security Warnings](https://hakiri.io/github/stoscsg/stoscsg.github.io/master.svg) ![Code Climate](https://codeclimate.com/github/stoscsg/stoscsg.github.io/badges/gpa.svg)
 # Build Instructions.github.io
 Website for STOSC
 
