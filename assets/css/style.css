@@ -530,7 +530,7 @@
 			}
 
 			#nav > ul > li.active {
-				background: #3ac984;
+				background: #301f14;
 			}
 
 				#nav > ul > li.active a {
@@ -545,7 +545,7 @@
 
 	.dropotron {
 		margin-top: -2px;
-		background: #3ac984;
+		background: #301f14;
 		border-radius: 10px;
 		color: white;
 		min-width: 12em;
