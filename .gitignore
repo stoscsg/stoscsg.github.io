@@ -27,3 +27,5 @@ _gh_pages
 *.sublime-workspace
 nbproject
 Thumbs.db
+
+Gemfile.lock

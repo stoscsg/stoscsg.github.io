@@ -1,4 +1,4 @@
-[![Travis](https://travis-ci.org/stoscsg/stoscsg.github.io.svg?branch=master)]()
+![Build Status](https://api.travis-ci.org/stoscsg/stoscsg.github.io.svg)
 
 # Build Instructions.github.io
 Website for STOSC
