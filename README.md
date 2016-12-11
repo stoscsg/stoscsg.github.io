@@ -1,4 +1,4 @@
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
+[![Travis](https://travis-ci.org/stoscsg/stoscsg.github.io.svg?branch=master)]()
 
 # Build Instructions.github.io
 Website for STOSC
