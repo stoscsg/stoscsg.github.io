@@ -22,6 +22,3 @@ env:
 
 # route your build to the container-based infrastructure for a faster build
 sudo: false 
-
-#Travis bundles all gems in the vendor directory on its build servers, which Jekyll will mistakenly read and explode on.
-exclude: [vendor]
