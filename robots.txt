@@ -1,0 +1,3 @@
+#Prevent Indexing during development
+User-agent: *
+Disallow: /

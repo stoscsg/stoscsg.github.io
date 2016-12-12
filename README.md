@@ -7,6 +7,6 @@ Website for STOSC
 2. In RubyDevKit, `ruby dk.rb init`  & `ruby dk.rb review` & `ruby dk.rb install`
 3. Set PATH to Ruby and RubyDevKit `set PATH=%PATH%;D:\RubyDevKit;D:\Ruby23-x64\bin`
 4. Install Bundler: `gem install jekyll bundler jekyll-paginate html-proofer`
-5. Navigate to site folder and run site: `jekyll serve`
+5. Navigate to site folder and run site: `bundle exec jekyll serve`
 5. Setup [Travis](https://jekyllrb.com/docs/continuous-integration/) and add travis file with html-proofer
 6. OPTIONAL: Install HTML proofer gem if needed to test site and links `gem install html-proofer`
