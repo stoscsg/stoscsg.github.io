@@ -1,6 +1,7 @@
 name: STOSC
-description: Horizons template for Jekyll
-paginate: 10
+description: St. Thomas Orthodox Syrian Cathedral
+paginate: 5
 # baseurl: '/stosc'
 encoding: utf-8
+#Travis bundles all gems in the vendor directory on its build servers, which Jekyll will mistakenly read and explode on.
 exclude: [vendor]
