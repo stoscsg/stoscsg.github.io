@@ -1,0 +1,30 @@
+--- 
+title: The Holy Synod 
+layout: main 
+---
+
+<!-- Main -->
+<div id="main" class="wrapper style1">
+  <div class="container">
+
+
+    {% assign sorted_pages = site.thirumenis | sort:"order" %} 
+	{% for thirumeni in sorted_pages %}
+    <section>
+
+      <table>
+        <tbody>
+          <tr>
+            <td style="padding-right:10px;vertical-align:middle"><img src="{{thirumeni.image_path}}"></td>
+            <td style="padding-right:10px;vertical-align:middle">
+              <h3>{{ thirumeni.title }}</h3>
+              <br/>{{ thirumeni.content }}</td>
+          </tr>
+        </tbody>
+      </table>
+      {% endfor %}
+
+
+
+  </div>
+</div>

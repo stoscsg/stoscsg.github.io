@@ -1,0 +1,6 @@
+---
+title: H.G. Dr. Mathews Mar Severios Metropolitan
+image_path: /assets/images/thirumenis/ant-300x193.jpg
+order: 7
+---
+His Grace was born on 12 February 1949 to Mr Cherian Anthrayos of Mattathil family, being a member of St Peters Church, Vazhoor. After his school education, he joined Kerala University and passed his BSc Chemistry. After his BSc, he joined Orthodox Seminary, Kottayam, and had his GST degree. His Grace took his BD degree from the Serampore University and did his higher studies in Theology at  Theological Academy, Leningrad, Russia. Thereupon he joined Oriental Institute, Rome, and took his MTh and PhD from there. Dr Severios was ordained a deacon in 1976 and a priest in 1978 by HH Baselios Mathews I. He was escalated to the post of an Episcopa on 30 April 1991 at a function at Parumala, and metropolitan in 1993. He is a well-known teacher and a faculty member of the Orthodox Seminary, Kottayam. He has started many ventures to help give employment opportunities to women from the economically backward classes. His Grace is also serving the Holy Episcopal Synod as its secretary.
