@@ -1,29 +1,20 @@
 <!-- Nav -->
 	<nav id="nav">
 		<ul>
-			{% assign current = page.url | downcase | split: '/' %}
 			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="{{site.baseurl}}/index.html">Home</a></li>
-			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{site.baseurl}}/blog">About Us</a></li>
+			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="https://www.youtube.com/channel/UCKX5xXxkxfbNZG7zptZFPgA/live">Live Stream</a></li>
+			{% assign current = page.url | downcase | split: '/' %}
 			<li>
 				<a href="http://beta.stosc.com">Organizations</a>
 				<ul>
 					<li><a href="{{site.baseurl}}/stmarys.html">St. Mary's League</a></li>
 					<li><a href="{{site.baseurl}}/ocym_mgocsm.html">OCYM & MGOCSM</a></li>
 					<li><a href="{{site.baseurl}}/sundayschool.html">Sunday School</a></li>
-					<li>
-						<a href="{{site.baseurl}}/synod.html">Thirumenis</a>
-						<ul>
-							<li><a href="http://beta.stosc.com">H.H. Baselios Marthoma Paulose II</a></li>
-							<li><a href="http://beta.stosc.com">Phasellus consequat</a></li>
-							<li><a href="http://beta.stosc.com">Magna phasellus</a></li>
-							<li><a href="http://beta.stosc.com">Etiam dolore nisl</a></li>
-							<li><a href="http://beta.stosc.com">Veroeros feugiat</a></li>
-						</ul>
-					</li>
+					<li><a href="{{site.baseurl}}/synod.html">Thirumenis</a></li>
 				</ul>
 			</li>
-			<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="{{site.baseurl}}/left-sidebar.html">Announcements</a></li>
-			<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="{{site.baseurl}}/right-sidebar.html">Right Sidebar</a></li>
+			<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="{{site.baseurl}}/left-sidebar.html">Meadia & Download</a></li>
+			<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="https://crm.stosc.com/churchcrm/session/begin">CRM</a></li>
 			<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{site.baseurl}}/history.html">History</a></li>
 		</ul>
 	</nav>
