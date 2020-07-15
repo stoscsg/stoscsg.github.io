@@ -1,6 +1,7 @@
 _site/
 .sass-cache/
 _gh_pages
+.jekyll-cache/
 
 # Numerous always-ignore extensions
 *.diff
