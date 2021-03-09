@@ -2,10 +2,9 @@
 	<nav id="nav">
 		<ul>
 			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="{{site.baseurl}}/index.html">Home</a></li>
-			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="https://www.youtube.com/channel/UCKX5xXxkxfbNZG7zptZFPgA/live">Live Stream</a></li>
 			{% assign current = page.url | downcase | split: '/' %}
 			<li>
-				<a href="http://beta.stosc.com">Organizations</a>
+				<a href="{{site.baseurl}}">Organizations</a>
 				<ul>
 					<li><a href="{{site.baseurl}}/stmarys.html">St. Mary's League</a></li>
 					<li><a href="{{site.baseurl}}/ocym_mgocsm.html">OCYM & MGOCSM</a></li>
@@ -13,7 +12,16 @@
 					<li><a href="{{site.baseurl}}/synod.html">Thirumenis</a></li>
 				</ul>
 			</li>
-			<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="{{site.baseurl}}/left-sidebar.html">Media & Download</a></li>
+			<li>
+				<a href="{{site.baseurl}}">Media & Download</a>
+				<ul>
+					<li><a href="https://stosc.com/live">Services Live Stream</a></li>
+					<li><a href="{{site.baseurl}}/stmarys.html">Service Books</a></li>
+					<li><a href="{{site.baseurl}}/ocym_mgocsm.html">OpenLP</a></li>
+					<li><a href="{{site.baseurl}}/sundayschool.html">Photos</a></li>
+				</ul>
+			</li>
+			<!-- <li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="{{site.baseurl}}/left-sidebar.html">Media & Download</a></li> -->
 			<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="https://crm.stosc.com/churchcrm/session/begin">CRM</a></li>
 			<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{site.baseurl}}/history.html">History</a></li>
 		</ul>

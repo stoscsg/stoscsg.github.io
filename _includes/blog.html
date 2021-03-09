@@ -10,7 +10,7 @@
 						{% for post in site.posts offset: 0 limit: 2 %}
 							<div class="6u">
 								<section class="box">
-									<a href="http://beta.stosc.com" class="image featured"><img alt="image" src="{{ site.baseurl }}{{ post.featured }}" alt="" /></a>
+									<a href="{{site.baseurl}}" class="image featured"><img alt="image" src="{{ site.baseurl }}{{ post.featured }}" alt="" /></a>
 									<header>
 										<h3>{{ post.title }}</h3>
 										<p>Posted {{ post.date | date_to_string }}</p>
@@ -19,7 +19,7 @@
 									<footer>
 										<ul class="actions">
 											<li><a href="{{ site.baseurl }}{{ post.url }}" class="button icon fa-file-text">Continue Reading</a></li>
-											<li><a href="http://beta.stosc.com" class="button alt icon fa-comment">33 comments</a></li>
+											<li><a href="{{site.baseurl}}" class="button alt icon fa-comment">33 comments</a></li>
 										</ul>
 									</footer>
 								</section>

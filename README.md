@@ -8,7 +8,8 @@ There are 3 ways I've tried to setup the environment:
 ### Option 1
 1. [Install Chocolatey](https://chocolatey.org/docs/installation#installing-chocolatey)
 2. Install the needed chocolatey packages
-    ```choco install ruby -y
+    ```dos
+    choco install ruby -y
     gem install jekyll bundler jekyll-paginate html-proofer
     ```
 3. Navigate to the cloned repo (this one) and run: `bundle exec jekyll serve`
