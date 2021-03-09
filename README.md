@@ -26,3 +26,12 @@ There are 3 ways I've tried to setup the environment:
 
 ### Option 3
 Follow instructions per [this](https://jekyllrb.com/docs/windows/) link
+
+
+## RUN
+
+Serve pages:
+
+```
+bundle exec jekyll serve
+```
